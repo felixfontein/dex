@@ -175,7 +175,6 @@ func (s *Server) discoveryHandler() (http.HandlerFunc, error) {
 		Claims: []string{
 			"aud", "email", "email_verified", "exp",
 			"iat", "iss", "locale", "name", "sub",
-			"preferred_username",
 		},
 	}
 
